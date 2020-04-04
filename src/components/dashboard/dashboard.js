@@ -55,6 +55,9 @@ class Dashboard extends Component {
                     <li>
                         <Link to='/DynamicApi'> DYNAMIC API CALL</Link>
                     </li>
+                    <li>
+                        <Link to='/Countries'> Countries List </Link>
+                    </li>
                 </ul>
                 
             </div>

@@ -7,9 +7,6 @@ const initialState = {
 
 
 const LoginReducer = (state=initialState, action) => {
-    console.log("action", action)
-
-
     switch(action.type){
         case LOGIN:
             let userData = state.loginData.filter((item, i) => item.email === action.payload.email && item.password === action.payload.password)
@@ -17,7 +14,6 @@ const LoginReducer = (state=initialState, action) => {
         default:
             return state
     }
-
 }
 
 export default LoginReducer;

@@ -17,6 +17,7 @@ import PostComp from '../components/dashboard/postComp/postComp';
 import TodoComp from '../components/dashboard/todoComp/todoComp';
 import DropKey from '../components/dashboard/dropDownWithKey/dropKey';
 import DynamicApi from '../components/dashboard/dynamicApi/dynamicApi';
+import Countries from '../components/dashboard/countries/countries';
 
 class Routers extends Component {
     constructor() {
@@ -44,6 +45,7 @@ class Routers extends Component {
                <Route exact path='/todoComp' component={TodoComp}/>
                <Route exact path='/DropKey' component={DropKey}/>
                <Route exact path='/DynamicApi' component={DynamicApi}/>
+               <Route exact path='/Countries' component={Countries}/>
             </Router>
             </div>
         )
