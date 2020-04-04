@@ -1,0 +1,52 @@
+.dropDown{
+    text-align: center;
+    margin: 50px;
+    display: block;
+}
+
+.dropDownInput{
+    margin: auto;
+    height: 200px;
+    width: 400px;
+}
+.inputWrapper{
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: brown;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.dropDownList {
+    position: relative;
+    bottom: 140px;
+}
+.newCitiesList{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    top: 42px;
+    left: 165px;
+    height: 20px;
+    width: 20px;
+}
+.newListItem{
+    padding: 0px 0px 0px 17px;
+    margin-top:24px;
+}
+.drop-img{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 85px;
+    right: 215px;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
